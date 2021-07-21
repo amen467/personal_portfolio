@@ -43,7 +43,7 @@ const skillsSection = {
     ),
     emoji("⚡ Comfortable with object oriented programming, particularly C++"),
     emoji(
-      "⚡ Eager to also become proficient in Angular as well as Java and Spring   "
+      "⚡ Eager to also become proficient in Angular as well as full stack Python"
     )
   ],
 
@@ -101,9 +101,10 @@ const educationInfo = {
       logo: require("./assets/images/EasternLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "August 2018 - May 2021",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Projects:",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Designed and implemented relational databases using PostgreSQL in collaboration using Github",
+        "Developed NLP machine learning models to analyse new sources"
       ]
     },
     {
@@ -111,9 +112,9 @@ const educationInfo = {
       logo: require("./assets/images/EasternLogo.png"),
       subHeader: "Bachelor of Arts in Philosophy",
       duration: "August 2007 - May 2011",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      // desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Learned to communicate complex and abstract concepts clearly and succinctly"
       ]
     }
   ]
