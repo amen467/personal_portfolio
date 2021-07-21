@@ -6,7 +6,7 @@ import landingPerson from "../../assets/lottie/landingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-
+import profile_pic from "../../assets/images/me.jpg";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
@@ -48,7 +48,16 @@ export default function Greeting() {
               </div>
             </div>
           </div>
+          {/* ADD MY OWN IMAGE HERE? */}
+
           <div className="greeting-image-div">
+            <img 
+              src={profile_pic}
+              alt="Picture of me">
+            </img>
+          </div>
+
+          {/* <div className="greeting-image-div">
             {illustration.animated ? (
               <DisplayLottie animationData={landingPerson} />
             ) : (
@@ -57,7 +66,7 @@ export default function Greeting() {
                 src={require("../../assets/images/manOnTable.svg")}
               ></img>
             )}
-          </div>
+          </div> */}
         </div>
       </div>
     </Fade>

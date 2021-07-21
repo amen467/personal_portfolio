@@ -44,5 +44,13 @@
   },
   "devDependencies": {
     "prettier": "^2.2.1"
-  }
+  },
+  "description": "![ReactJS Resume Website Template](portfolio.png?raw=true \"ReactJS Resume Website Template\")",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "\"https://github.com/amen467/personal_portfolio.git\""
+  },
+  "author": "Andrew Meneses",
+  "license": "ISC"
 }

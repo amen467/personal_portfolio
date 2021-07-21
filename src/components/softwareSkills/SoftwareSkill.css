@@ -3,13 +3,13 @@
   list-style: none;
   font-size: 3rem;
   margin-bottom: 0px;
-  margin-top: 0px;
+  margin-top: 50px;
   text-align: center;
 }
 
 .software-skill-inline {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 70px;
   margin-bottom: 20px;
 }
 
